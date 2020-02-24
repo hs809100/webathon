@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .container {
+    width:1170px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  
+  .top-wrapper {
+    padding-top:180px;
+    padding-bottom:100px;
+    color:white;
+    background-image:url(1.jpg);
+    background-size:cover;
+    text-align:center;
+  }
+  
+  .top-wrapper h1 {
+    opacity:1;
+    font-size:45px;
+    letter-spacing:5px;
+    margin-bottom:10px;
+  }
+  
+  
+  .top-wrapper p {
+    opacity:0.7;
+    margin-bottom:3px;
+  }
+  
+  .btn {
+    padding:12px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    border-radius:4px;
+  }
+  
+  .btn:hover {
+    opacity:1;
+  }
+  
+  .start-now {
+    background-color:#239b76;
+    margin-right:10px;
+  }
+  
+  
+ 
+  .learn-more {
+    background-color:#239b76;
+    
+  }
+  
+  .btn-wrapper {
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  
+  
+  
+  .btn-wrapper p {
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .border {
+    border-style:solid;
+    border-color:white;
+    background-color:black;
+    opacity: 0.5;
+    
+  }
+    
+    
+      header {
+        height:65px;
+        width:100%;
+        background-color:whitesmoke;
+        position:fixed;
+        top:0;
+        z-index:10;
+      }
+      .lesson-wrapper {
+        height: 500px;
+        padding-bottom: 80px;
+        background-color: #f7f7f7;
+        text-align: center;
+      }
+      
+      .heading {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: #5f5d60;
+      }
+      
+      .heading h2 {
+        font-weight: normal;
+      }
+      
+      .lesson { 
+          float: left;
+        width: 25%;
+        
+      }
+      
+      .lesson-icon {
+        position: relative;
+      }
+      
+      .lesson-icon p {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        color: white;
+      }
+      
+      .txt-contents {
+        width: 80%;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 15px;
+        color:darkgray;
+      }
+      
+      .heading h3 {
+        font-weight: normal;
+      }
+      
+      /* Add CSS for logo */
+      .logo {
+        width:50px;
+        margin-top:10px;
+      }
+      
+      .banner {
+        float:left;
+      }
+      .header-left {
+        float:left;
+      }
+      
+      
+      /* Add CSS for header-right */
+      .header-right {
+        float:right;
+        background-color:black;
+        color: white;
+        transition: all 0.5s;
+      }
+      
+      
+      /* Add CSS for header-right on hover */
+      .header-right:hover {
+        background-color:gray;
+      }
+      .header-right a {
+        line-height:65px;
+        padding-left:25px;
+        padding-right:25px;
+        color:white;
+        display:block;
+      }
+      footer img {
+        width:50px;
+        margin-top:10px;
+      }
+      
+      
+      /* Add CSS for <p> tags inside the <footer> */
+      .footer-logo {
+        color:black;
+        font-size:12px;
+        padding-top: 10px;
+      }
+      
+      
+      /* Add CSS for <footer> tags */
+      footer {
+        padding-top:30px;
+        background-color: gray;
+      }
+      
+  
+
+  footer p {
+    color:black;
+    font-size:12px;
+    float: right;
+    
+  }
